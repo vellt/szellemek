@@ -1,5 +1,38 @@
 # szellemek
 
+## feladaok
+- az összes szellem listázva (foreach)
+- elhalálozás szerint rendezd növekvő sorrendbe (orderBy )
+- Az összes olyan szellem aki temetőben kísért (where)
+- van olyan szellem aki régi kastélyban kísért, de ártalmatlan? (Exists)
+- az összes szellem darabszáma (count)
+- Az összes veszélyes és félelmetes szellem (where)
+- A legrégebben meghalt szellem (orderBy-->first)
+- Az első szellem ártalmatlan szellem?
+
+---
+
+- Állapítsd meg, melyik szellem típus a legritkább a listában (ami a legkevesebb előfordulással rendelkezik), és írd ki a nevét.
+- Listázd ki az összes félelmetes szellem nevét és halál időpontját.
+- Listázd ki annak az ártalmatlan szellemnek a nevét és halál időpontját, aki a legrégebben halt meg.
+- Állapítsd meg, ki az a veszélyes szellem, aki a legutóbb halt meg, és írd ki a nevét.
+- Számold ki a temetőben kísértő szellemek átlagos halálozási évét.
+- Számold meg, hány szellem kísért az elhagyatott házban, és írd ki a nevüket.
+- Listázd ki a legutóbbi 3 halálesetet (legújabb 3 szellem) a nevükkel és halál időpontjukkal.
+- Számold ki az összes szellem átlagos halálozási évét.
+- Írd ki a legöregebb, erdőben kísértő ártalmatlan szellem nevét és halál időpontját.
+- Keresd meg a legfiatalabb szellemet, aki nem veszélyes és nem félelmetes, majd írd ki a nevét és halál időpontját.
+- Listázd ki az összes szellem nevét és kedvenc helyét, a neveket ábécé sorrendbe rendezve.
+- Szűrd ki azokat a szellemeket, akik 1900 és 1999 között haltak meg, és listázd ki a nevüket és halál időpontjukat.
+- Ellenőrizd, hogy a temetőben kizárólag ártalmatlan szellemek kísértenek-e.
+- Keresd meg azt a legöregebb szellemet, aki kastélyban kísért, de nem ártalmatlan, és írd ki a nevét és halál időpontját.
+- Listázd ki azokat a szellemeket, akik már legalább 50 éve kísértenek.
+- Keresd meg a legfiatalabb szellemet, aki félelmetes, de nem veszélyes, majd írd ki a nevét és halál időpontját.
+- Listázd ki azokat a szellemeket, akiknek a kedvenc helye kastély vagy temető.
+- Listázd ki minden második szellem adatait a listában (azaz az 1., 3., 5., stb. indexű szellemeket).
+
+## lista
+
 ```csharp
 List<Szellem> szellemek = new List<Szellem>
 {
